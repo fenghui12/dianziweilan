@@ -1,0 +1,40 @@
+display:
+  font: simhei.ttf
+  font_size: 30
+  show_detections: true
+  show_fps: true
+fence:
+  area:
+  - - 0.4292307692307692
+    - 0.3261538461538461
+  - - 0.4269230769230769
+    - 0.5169230769230769
+  - - 0.04846153846153846
+    - 0.9969230769230768
+  - - 0.05076923076923077
+    - 0.4615384615384615
+  line:
+  - 0.6
+  - 0.0
+  - 0.6
+  - 1.0
+  line_color:
+  - 0
+  - 0
+  - 255
+  line_thickness: 2
+  warning_color:
+  - 0
+  - 0
+  - 255
+  warning_text: 警告！禁止入内
+  warning_threshold: 2.0
+model:
+  classes:
+  - 0
+  confidence: 0.5
+  weights: ../yolov11n.pt
+video:
+  fps: 30
+  height: 480
+  width: 640
